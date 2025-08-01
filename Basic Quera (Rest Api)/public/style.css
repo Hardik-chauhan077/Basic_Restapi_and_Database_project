@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background: #f8f8f8;
+}
+
+h1 {
+  color: brown;
+}
+
+a {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.post {
+  background-color: #fff8e1;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.username {
+  font-style: italic;
+  color: #333;
+}
+form textarea{
+  height: 108px;
+  width: 310px;
+}
+form.delete-form {
+  display: inline; /* keep the form inline with other buttons */
+}
+
+.delete-form button {
+  background-color: #ff4d4d;   /* red for delete */
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.delete-form button:hover {
+  background-color: #cc0000;
+}
